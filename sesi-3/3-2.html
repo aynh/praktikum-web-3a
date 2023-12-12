@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <h1 id="uji_heading"></h1>
+    <p id="uji_paragraf"></p>
+    <input type="text" name="" id="uji_input" />
+
+    <script>
+      let uji_heading = document.getElementById("uji_heading");
+      let uji_paragraf = document.getElementById("uji_paragraf");
+      let uji_input = document.getElementById("uji_input");
+
+      uji_heading.innerText = "Judul";
+      uji_paragraf.innerText = "Paragraf";
+      uji_input.value = "Input";
+    </script>
+  </body>
+</html>
